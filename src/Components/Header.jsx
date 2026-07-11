@@ -50,12 +50,12 @@ function Header() {
         {/* SIDEBAR */}
         <div className={`sidebar ${open ? "active" : ""}`}>
 
-          <a href="#Hero">Home</a>
-          <a href="#Service">Services</a>
-          <a href="#Doctors">Doctors</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Login</a>
+          <a href="#HMSHero">Home</a>
+          <a href="#HMSServices">Services</a>
+          <a href="#HMSDoctors">Doctors</a>
+          <a href="#HMSAbout">About</a>
+          <a href="#HMSContactInfo">Contact</a>
+          <a href="#" id="HMSLogin">Login</a>
 
         </div>
 
